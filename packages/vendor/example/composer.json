@@ -1,5 +1,5 @@
 {
-    "name": "vendor/example",
+    "name": "vubao/example",
     "description": "A Laravel package example",
     "type": "library",
     "autoload": {
