@@ -1,0 +1,22 @@
+{
+    "name": "vendor/example",
+    "description": "A Laravel package example",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "Vendor\\Example\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^8.0",
+      "laravel/framework": "^11.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Vendor\\Example\\PackageServiceProvider"
+        ]
+      }
+    }
+  }
+  
